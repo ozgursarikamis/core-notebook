@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Notebook.WebApi.HubConfig;
+using Notebook.SignalRApi.HubConfig;
 
-namespace Notebook.WebApi
+namespace Notebook.SignalRApi
 {
     public class Startup
     {

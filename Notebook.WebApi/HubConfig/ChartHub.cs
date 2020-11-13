@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace Notebook.WebApi.HubConfig
+namespace Notebook.SignalRApi.HubConfig
 {
     public class ChartHub : Hub
     {

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notebook.WebApi", "Notebook.WebApi\Notebook.WebApi.csproj", "{B8942442-03B7-41BB-8668-A1AF398FE9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notebook.SignalRApi", "Notebook.WebApi\Notebook.SignalRApi.csproj", "{B8942442-03B7-41BB-8668-A1AF398FE9DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FA14934D-8383-4DFA-92DD-2005B065412F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{784B6673-3085-4FE1-96B4-C9A706309DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8942442-03B7-41BB-8668-A1AF398FE9DE} = {784B6673-3085-4FE1-96B4-C9A706309DEE}
+		{784B6673-3085-4FE1-96B4-C9A706309DEE} = {FA14934D-8383-4DFA-92DD-2005B065412F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BBE5690-880B-4C2D-BCA2-62535B28C701}

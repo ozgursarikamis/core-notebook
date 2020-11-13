@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Notebook.WebApi.Models;
+using Notebook.SignalRApi.Models;
 
-namespace Notebook.WebApi.DataStorage
+namespace Notebook.SignalRApi.DataStorage
 {
     public class DataManager
     {

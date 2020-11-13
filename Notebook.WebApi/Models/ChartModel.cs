@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Notebook.WebApi.Models
+namespace Notebook.SignalRApi.Models
 {
     public class ChartModel
     {

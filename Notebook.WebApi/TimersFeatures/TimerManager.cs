@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Notebook.WebApi.TimersFeatures
+namespace Notebook.SignalRApi.TimersFeatures
 {
     public class TimerManager
     {

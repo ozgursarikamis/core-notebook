@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using Notebook.WebApi.DataStorage;
-using Notebook.WebApi.HubConfig;
-using Notebook.WebApi.TimersFeatures;
+using Notebook.SignalRApi.DataStorage;
+using Notebook.SignalRApi.HubConfig;
+using Notebook.SignalRApi.TimersFeatures;
 
-namespace Notebook.WebApi.Controllers
+namespace Notebook.SignalRApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
